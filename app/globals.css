@@ -257,7 +257,7 @@ main { padding-bottom: 40px; }
 
   .result {
     position: fixed; left: 0; right: 0; bottom: 0; height: 90dvh; z-index: 50;
-    margin: 0; padding: 64px 20px calc(96px + env(safe-area-inset-bottom)); max-width: none; overflow-y: auto; overflow-x: hidden;
+    margin: 0; padding: 48px 20px calc(96px + env(safe-area-inset-bottom)); max-width: none; overflow-y: auto; overflow-x: hidden;
     display: flex; flex-direction: column; align-items: stretch; gap: 20px;
     background: #000; border-top: 4px solid var(--rarity); border-left: 1px solid #333; border-right: 1px solid #333;
     opacity: 1; transform: translateY(100%); transition: transform .45s cubic-bezier(.2, .8, .2, 1);
@@ -267,7 +267,7 @@ main { padding-bottom: 40px; }
   .r-info h2 { font-size: 28px; margin: 6px 0 12px; }
   .r-info p { font-size: 14px; line-height: 1.6; margin: 0; }
   .r-info a { margin-top: 20px; }
-  .sheet-close { display: block; position: absolute; top: 20px; right: 20px; z-index: 1; font-size: 18px; }
+  .sheet-close { display: block; position: absolute; top: 8px; right: 8px; z-index: 1; font-size: 18px; padding: 8px 10px; }
 
   /* header collapses into a menu that slides in from the right, like the filters */
   .top { flex-wrap: nowrap; align-items: center; z-index: auto; }
